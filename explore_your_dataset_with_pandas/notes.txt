@@ -1,0 +1,9 @@
+This runs through the code of the course -- explore your data with pandas.
+website: https://realpython.com/courses/explore-dataset-with-pandas/
+
+Notes:
+  - Launch a virtual environment
+      python -m venv venv --system-site-packages
+      source venv/bin/activate
+      python -m pip install
+  - 
