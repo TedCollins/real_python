@@ -1,0 +1,14 @@
+This runs through the code for the linear regression lessons from Real Python.
+website: https://realpython.com/linear-regression-in-python/
+
+Notes:
+  - used scikit learn for the fundamental fitting of regression objects. 
+  - linearRegression.fit(x, y) is the common pattern
+  - statmods is a lot more like R's summary readout for regression. It has the opposite order for predectors in the funtion. 
+  - Used the venv package to build the virtual environment
+    - source venv/bin/activate
+    - deactivate
+    - install packages: python -m pip install numpy scikit-learn statsmodels
+  - Note: In scikit-learn, by convention, a trailing underscore indicates that an attribute is estimated. In this example, .intercept_ and .coef_ are estimated values.
+  - Read thru the value of f strings as well. https://realpython.com/python-f-strings/
+  
